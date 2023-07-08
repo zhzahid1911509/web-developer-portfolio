@@ -8,11 +8,12 @@ nav{
     font-size: 20px;
     justify-content: space-between;
     align-items: center;
+    margin: 0 100px;
 }
 
 .btn-primary{
     color: azure;
-    font-size: 20px;
+    font-size: 18px;
     border-radius: 5px;
     border: 0;
     background-color: orangered;
@@ -44,3 +45,17 @@ nav a{
     color: #005;
 }
 
+.header{
+    background-color: blanchedalmond;
+}
+
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.banner .profile-pic{
+    width: 400px;
+    border-radius: 150px;
+}
