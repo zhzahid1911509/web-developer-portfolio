@@ -1,7 +1,4 @@
 /* common shared styles */
-*{
-    
-}
 body{
     font-family: 'Roboto', sans-serif;
 }
@@ -69,7 +66,7 @@ nav a{
 }
 
 .banner .profile-pic{
-    width: 400px;
+    width: 350px;
     border-radius: 150px;
     
 }
@@ -86,8 +83,11 @@ nav a{
     font-weight: 600;
     margin-bottom: 0;
 }
-
 /* main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto; 
+}
 /* about styles */
 .about{
     background: #fff8f3;
@@ -109,4 +109,15 @@ nav a{
     text-align: center;
     font-size: 20px;
 }
+
+.about-info-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-info{
+    text-align: center;
+}
+
+
 
