@@ -1,4 +1,7 @@
 /* common shared styles */
+*{
+    
+}
 body{
     font-family: 'Roboto', sans-serif;
 }
@@ -18,6 +21,7 @@ nav{
     border: 0;
     background-color: orangered;
     padding: 6px;
+    cursor: pointer;
 }
 
 .nav-title{
@@ -44,18 +48,65 @@ nav a{
     text-decoration: none;
     color: #005;
 }
-
+/* head styles */
 .header{
     background-color: blanchedalmond;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    image-resolution: 70% 80%;
 }
 
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+
+.banner-content{
+    max-width: 500px;
 }
 
 .banner .profile-pic{
     width: 400px;
     border-radius: 150px;
+    
 }
+
+.banner-title{
+    font-size: 80px;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+.banner-greeting{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+/* main styles */
+/* about styles */
+.about{
+    background: #fff8f3;
+    padding: 60px;
+    border-radius: 10px;
+    margin: 80px 0;
+}
+
+.a-title{
+    color:#181818;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.a-description{
+    color:#181818;
+    text-align: center;
+    font-size: 20px;
+}
+
